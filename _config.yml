@@ -24,9 +24,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Enligence Labaratory
+title: 立思实验室 ｜ Enligeence Labaratory
 email: enligence.lab@outlook.com
-author: Enligence Labaratory
+author: 立思实验室 ｜ Enligeence Labaratory
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
@@ -40,7 +40,7 @@ author: Enligence Labaratory
 #   "Copyright (c) 2017-{currentYear} <a href="https://example.com">{author}</a>"
 #   "Copyright © 2017-2021 Foobar"
 #
-copyright: "Enligence Labaratory (cleft) 2017-{currentYear} {author}"
+copyright: "立思实验室 ｜ Enligeence Labaratory (cleft) 2017-{currentYear} {author}"
 
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
