@@ -151,6 +151,7 @@ header_pages:
   - about.html
   - people.html
   - projects.html
+  - outcome.html
   # - archives.html
   - categories.html
   # - tags.html
