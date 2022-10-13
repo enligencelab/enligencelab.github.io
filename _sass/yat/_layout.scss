@@ -1045,3 +1045,80 @@ html {
       margin-left:-2.8rem
   }
 }
+
+.mdx-spotlight {
+  margin: 2em 0
+}
+
+.mdx-spotlight__feature {
+  display: flex;
+  flex: 1 0 48%;
+  flex-flow: row nowrap;
+  gap: 3.2rem;
+  margin: 0 0 3.2rem
+}
+
+@media screen and (max-width: 59.9375em) {
+  .mdx-spotlight__feature {
+      flex-direction:column;
+      gap: 0
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .mdx-spotlight__feature:nth-child(odd) {
+      flex-direction:row-reverse
+  }
+}
+
+.mdx-spotlight__feature:last-child {
+  margin-bottom: 1em
+}
+
+.mdx-spotlight__feature>a {
+  display: block;
+  flex-shrink: 0;
+  transition: transform .5s cubic-bezier(.075,.85,.175,1)
+}
+
+@media screen and (max-width: 59.9375em) {
+  .mdx-spotlight__feature>a {
+      margin-left:auto;
+      margin-right: auto
+  }
+}
+
+.mdx-spotlight__feature>a:hover {
+  transform: scale(1.025)
+}
+
+.mdx-spotlight__feature a>img {
+  border-radius: .2rem;
+  box-shadow: var(--md-shadow-z2);
+  display: block;
+  height: auto;
+  max-width: 100%;
+  width: 25rem
+}
+
+.mdx-spotlight__feature a>img,.mdx-spotlight__feature figcaption {
+  transition: transform .75s cubic-bezier(.075,.85,.175,1) 125ms,opacity .75s 125ms
+}
+
+.mdx-spotlight__feature figcaption {
+  margin-top: .8rem
+}
+
+.js .mdx-spotlight__feature[hidden]>a>img {
+  opacity: 0;
+  transform: translateY(1.6rem)
+}
+
+.js .mdx-spotlight__feature[hidden]>figcaption {
+  opacity: 0;
+  transform: translateX(1.6rem)
+}
+
+.js .mdx-spotlight__feature[hidden]:nth-child(2n)>figcaption {
+  transform: translateX(-1.6rem)
+}
