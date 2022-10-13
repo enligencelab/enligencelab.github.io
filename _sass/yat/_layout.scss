@@ -787,9 +787,13 @@ html {
   flex-wrap: wrap;
 }
 
-.main-page-ul li {
-  flex: 1 1 100%;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+// .main-page-ul li {
+//   flex: 1 0 100%;
+//   margin: 0;
+//   padding: 0;
+//   list-style: none;
+// }
+
+.main-page-li-div {
+  width: 50%;
 }
