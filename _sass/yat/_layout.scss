@@ -779,3 +779,10 @@ html {
   background-color: #e3e3e3e3;
   vertical-align: baseline;
 }
+
+.main-page-ul {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
