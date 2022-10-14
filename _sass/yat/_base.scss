@@ -192,9 +192,12 @@ pre {
 
 .wrapper-home {
   max-width: 100%;
-  margin: auto;
+  // margin: auto;
   // padding-right: $spacing-unit;
   // padding-left: $spacing-unit;
+  margin: 0 60px;
+  padding: 0;
+  transition: 0.2s margin;
   @extend %clearfix;
 }
 
