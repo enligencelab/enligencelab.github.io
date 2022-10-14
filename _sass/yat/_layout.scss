@@ -1121,3 +1121,11 @@ html {
 .mdx-parallax__group{
   width: 100%;
 }
+
+.wrapper-home {
+  max-width: 100%;
+  margin: auto;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  @extend %clearfix;
+}
