@@ -614,6 +614,10 @@ html {
     height: 100%;
   }
 
+  .wrapper-home {
+    height: 100%;
+  }
+
   .page-banner-inner {
     @include vertical-center(relative);
 
@@ -1134,13 +1138,4 @@ html {
 // }
 .mdx-parallax__group{
   width: 100%;
-}
-
-.wrapper-home {
-  max-width: 100%;
-  height: 100%;
-  margin: auto;
-  // padding-right: $spacing-unit;
-  // padding-left: $spacing-unit;
-  @extend %clearfix;
 }
