@@ -1125,7 +1125,7 @@ html {
 .wrapper-home {
   max-width: 100%;
   margin: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
+  // padding-right: $spacing-unit;
+  // padding-left: $spacing-unit;
   @extend %clearfix;
 }
