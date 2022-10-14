@@ -782,6 +782,7 @@ html {
 
 .md-content__inner {
   margin-bottom: 0;
+  max-width: $content-width; ;
   // padding: 5.2rem 0
 }
 
