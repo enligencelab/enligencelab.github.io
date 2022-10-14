@@ -80,6 +80,19 @@ html {
       margin: 0 20px;
       max-width: unset;
     }
+
+  }
+  & > .wrapper-home {
+    margin: 0 60px;
+    padding: 0;
+    max-width: 100%;
+    transition: 0.2s margin;
+
+    @include media-query(1024px) {
+      margin: 0 20px;
+      max-width: unset;
+    }
+
   }
 
   a {
@@ -1125,6 +1138,7 @@ html {
 
 .wrapper-home {
   max-width: 100%;
+  height: 100%;
   margin: auto;
   // padding-right: $spacing-unit;
   // padding-left: $spacing-unit;
