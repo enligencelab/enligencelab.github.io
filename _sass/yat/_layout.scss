@@ -47,7 +47,34 @@ html {
 
   &[data-scroll-status='down'] {
     header.site-header {
+      background-color: #25252B;
       top: -$header-height;
+
+      .site-brand-inner, .page-link {
+        color: #fff;
+        transition: 0.1s color;
+      }
+
+      @include media-query($on-laptop) {
+        .page-link {
+          color: $header-text-color;
+        }
+
+        .menu-icon {
+          > svg {
+            fill: $white-color;
+          }
+        }
+      }
+    }
+
+    footer.site-footer {
+      color: unset;
+      background-color: #25252B;
+
+      .site-footer-inner {
+        border-top: solid 1px #eee;
+      }
     }
 
     .framework .sidebar {
