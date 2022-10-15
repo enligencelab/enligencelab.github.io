@@ -1237,30 +1237,3 @@
   opacity: 0;
   transform: translateY(1.6rem)
 }
-
-.md-typeset .md-button {
-  background-color: #dd2e57;
-  border-width: 0;
-  color: var(--md-primary-bg-color);
-  margin-right: .5rem;
-  margin-top: .5rem
-}
-
-.mdx-connect {
-  display: block;
-  transition: transform .75s cubic-bezier(.075,.85,.175,1) 125ms,opacity .75s 125ms
-}
-
-.js .mdx-connect[hidden] {
-  opacity: 0;
-  transform: translateY(1.6rem)
-}
-
-.mdx-connect .mdx-connect__link {
-  color: var(--md-default-fg-color);
-  display: block
-}
-
-.mdx-connect .mdx-connect__link span {
-  margin-right: .2rem
-}
