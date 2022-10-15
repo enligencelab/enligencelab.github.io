@@ -1138,10 +1138,18 @@
 //   height: min(100%,100%);
 //   top: auto
 // }
-.mdx-parallax__group{
+.mdx-parallax-dark__group{
   width: 100%;
   padding-top: 2rem;
   padding-bottom: 2rem;
   margin-bottom: 0;
-  background-color: #808080;
+  background-color: #25252B;
+}
+
+.mdx-parallax-light__group{
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 0;
+  background-color: #fff;
 }
