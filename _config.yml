@@ -107,7 +107,7 @@ coolblack: #090a0b
 spacegrey: #353535
 snowwhite: #ffffff
 #
-theme_color: spacegrey
+theme_color: #25252B
 #
 # Custom color as below:
 # theme_color: "#882250"
