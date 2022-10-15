@@ -2,6 +2,7 @@
  * Animation for transparent header
  */
 html {
+  background-color: #25252B;
   &[data-header-transparent] {
     header.site-header {
       position: fixed;
