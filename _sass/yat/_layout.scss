@@ -1154,3 +1154,77 @@
   margin-bottom: 0;
   background-color: #fff;
 }
+
+.mdx-users {
+  display: flex;
+  gap: 3.2rem;
+  margin: 2.4rem 0
+}
+
+@media screen and (max-width: 59.9375em) {
+  .mdx-users {
+      flex-direction:column
+  }
+}
+
+.mdx-users__testimonial {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin: 0;
+  text-align: center
+}
+
+.mdx-users__testimonial:first-child {
+  transition-delay: .2s
+}
+
+.mdx-users__testimonial:nth-child(2) {
+  transition-delay: 275ms
+}
+
+.mdx-users__testimonial:nth-child(3) {
+  transition-delay: .35s
+}
+
+.mdx-users__testimonial img {
+  border-radius: 5rem;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10rem
+}
+
+.mdx-users__testimonial figcaption,.mdx-users__testimonial img {
+  transition: transform .75s cubic-bezier(.075,.85,.175,1),opacity .75s;
+  transition-delay: inherit
+}
+
+.mdx-users__testimonial figcaption {
+  display: block
+}
+
+.mdx-users__testimonial hr {
+  margin-left: auto;
+  margin-right: auto;
+  width: 5rem
+}
+
+.mdx-users__testimonial cite {
+  display: block;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  text-align: justify
+}
+
+.js .mdx-users__testimonial[hidden] img {
+  opacity: 0;
+  transform: scale(.75)
+}
+
+.js .mdx-users__testimonial[hidden] figcaption {
+  opacity: 0;
+  transform: translateY(1.6rem)
+}
