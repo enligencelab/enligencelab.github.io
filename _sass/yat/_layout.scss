@@ -1,8 +1,7 @@
 /**
  * Animation for transparent header
  */
-html {
-  background-color: #25252B;
+ html {
   &[data-header-transparent] {
     header.site-header {
       position: fixed;
@@ -47,51 +46,8 @@ html {
   }
 
   &[data-scroll-status='down'] {
-    header.site-header-transparent {
-      height: 0;
-      margin-top: 12px;
-      background-color: #25252B;
-      transition: 0.1s height,background-color,box-shadow;
-
-      .wrapper{
-        background-color: #25252B;
-      }
-    }
-
     header.site-header {
-      background-color: #25252B;
       top: -$header-height;
-
-      .site-brand-inner, .page-link {
-        color: #fff;
-        transition: 0.1s color;
-      }
-
-      @include media-query($on-laptop) {
-        .page-link {
-          color: $header-text-color;
-        }
-
-        .menu-icon {
-          > svg {
-            fill: $white-color;
-          }
-        }
-      }
-    }
-
-    footer.h-card{
-      background-color: #25252B;
-    }
-
-    footer.site-footer {
-      color: unset;
-      background-color: #25252B;
-
-      .site-footer-inner {
-        border-top: solid 1px #eee;
-        background-color: #25252B;
-      }
     }
 
     .framework .sidebar {
