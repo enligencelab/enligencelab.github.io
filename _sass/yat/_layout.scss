@@ -46,6 +46,13 @@ html {
   }
 
   &[data-scroll-status='down'] {
+    header.site-header-transparent {
+      height: 0;
+      margin-top: 12px;
+      background-color: #25252B;
+      transition: 0.1s height,background-color,box-shadow;
+    }
+
     header.site-header {
       background-color: #25252B;
       top: -$header-height;
@@ -74,6 +81,7 @@ html {
 
       .site-footer-inner {
         border-top: solid 1px #eee;
+        background-color: #25252B;
       }
     }
 
