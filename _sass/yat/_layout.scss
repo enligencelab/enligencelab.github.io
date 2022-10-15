@@ -82,18 +82,18 @@ html {
     }
 
   }
-  & > .wrapper-home {
-    margin: 0 60px;
-    padding: 0;
-    max-width: 100%;
-    transition: 0.2s margin;
+  // & > .wrapper-home {
+  //   margin: 0 60px;
+  //   padding: 0;
+  //   max-width: 100%;
+  //   transition: 0.2s margin;
 
-    @include media-query(1024px) {
-      margin: 0 20px;
-      max-width: unset;
-    }
+  //   @include media-query(1024px) {
+  //     margin: 0 20px;
+  //     max-width: unset;
+  //   }
 
-  }
+  // }
 
   a {
     text-decoration: none;
@@ -1140,6 +1140,7 @@ html {
 .mdx-parallax__group{
   width: 100%;
   padding-top: 2rem;
+  padding-bottom: 2rem;
   margin-bottom: 0;
   background-color: #808080;
 }
