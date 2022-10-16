@@ -819,10 +819,15 @@
 
 .md-typeset .md-button {
   background-color: #dd2e57;
-  border-width: 0;
   color: var(--md-primary-bg-color);
   margin-right: .5rem;
-  margin-top: .5rem
+  margin-top: .5rem;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .md-typeset .md-button--secondary {
