@@ -828,6 +828,12 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+.md-button:hover {
+  background-color: #25252B;
+  color: white;
 }
 
 .md-typeset .md-button--secondary {
