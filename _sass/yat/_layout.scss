@@ -1267,7 +1267,6 @@
   gap: 1.2rem;
   margin: 2rem;
   text-align: center;
-  width: 100%;
 }
 
 // .mdx-users__list:first-child {
@@ -1310,7 +1309,7 @@
   -webkit-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
-  text-align: justify
+  text-align: center;
 }
 
 .js .mdx-users__list[hidden] img {
