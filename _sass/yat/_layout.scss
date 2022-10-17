@@ -1185,11 +1185,7 @@
 
 @media screen and (max-width: 59.9375em) {
   .mdx-users {
-      flex-direction:row;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 3.2rem;
-      margin: 2.4rem 0
+      flex-direction:column;
   }
 }
 
@@ -1272,6 +1268,7 @@
   gap: 1.2rem;
   margin: 2rem;
   text-align: center;
+  width: 80%;
 }
 
 // .mdx-users__list:first-child {
