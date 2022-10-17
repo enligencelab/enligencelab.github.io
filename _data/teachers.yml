@@ -1,19 +1,29 @@
 # - picture:
 #   name:
-#   description:
+#   school:
+#   department:
+#   title:
 
 - picture: https://raw.githubusercontent.com/enligencelab/enligencelab.github.io/main/assets/images/banners/hello.jpeg
   name: 张三
-  description: 上海立信会计金融学院，信息管理学院，副教授
+  school: 上海立信会计金融学院
+  department:  信息管理学院
+  title: 副教授
 
 - picture: https://raw.githubusercontent.com/enligencelab/enligencelab.github.io/main/assets/images/banners/hello.jpeg
   name: 李四
-  description: 上海立信会计金融学院，信息管理学院，副教授
+  school: 上海立信会计金融学院
+  department:  信息管理学院
+  title: 副教授
 
 - picture: https://raw.githubusercontent.com/enligencelab/enligencelab.github.io/main/assets/images/banners/hello.jpeg
   name: 张三
-  description: 上海立信会计金融学院，信息管理学院，副教授
+  school: 上海立信会计金融学院
+  department:  信息管理学院
+  title: 副教授
 
 - picture: https://raw.githubusercontent.com/enligencelab/enligencelab.github.io/main/assets/images/banners/hello.jpeg
   name: 李四
-  description: 上海立信会计金融学院，信息管理学院，副教授
+  school: 上海立信会计金融学院
+  department:  信息管理学院
+  title: 副教授
