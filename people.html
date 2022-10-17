@@ -7,7 +7,7 @@ title: 成员
     <h1>
         教师团队
     </h1>
-    <div class="mdx-users">
+    <div class="box">
         {%- assign teachers = site.data.teachers -%}
         {%- for teacher in teachers -%}
             <figure class="mdx-users__list">
@@ -33,7 +33,7 @@ title: 成员
     <h1>
         已毕业成员
     </h1>
-    <div class="mdx-users">
+    <div class="box">
         {%- assign graduatedStudents = site.data.graduated -%}
         {%- for graduatedStudent in graduatedStudents -%}
             <figure class="mdx-users__list">
@@ -59,7 +59,7 @@ title: 成员
     <h1>
         在校成员
     </h1>
-    <div class="mdx-users">
+    <div class="box">
         {%- assign students = site.data.undergraduate -%}
         {%- for student in students -%}
             <figure class="mdx-users__list">
