@@ -1267,20 +1267,20 @@
   gap: 1.2rem;
   margin: 2rem;
   text-align: center;
-  width: 5%;
+  width: 50%;
 }
 
-.mdx-users__list:first-child {
-  transition-delay: .2s
-}
+// .mdx-users__list:first-child {
+//   transition-delay: .2s
+// }
 
-.mdx-users__list:nth-child(2) {
-  transition-delay: 275ms
-}
+// .mdx-users__list:nth-child(2) {
+//   transition-delay: 275ms
+// }
 
-.mdx-users__list:nth-child(3) {
-  transition-delay: .35s
-}
+// .mdx-users__list:nth-child(3) {
+//   transition-delay: .35s
+// }
 
 .mdx-users__list img {
   border-radius: 5rem;
