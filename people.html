@@ -8,78 +8,18 @@ title: 成员
         教师团队
     </h2>
     <div class="box">
-        <figure class="mdx-users__list">
-            <img src="https://raw.githubusercontent.com/enligencelab/enligencelab.github.io/main/assets/images/banners/hello.jpeg"
-                alt="Chisato Nishikigi" loading="lazy" width="150" height="150">
-            <figcaption class="md-typeset">
-                <h2>Chisato Nishikigi</h2>
-                <!-- <h3>My Wife</h3>
-                <hr class="people-line"> -->
-                <cite>
-                    My wife, Super Lycoris, The best JK in the world.
-                </cite>
-            </figcaption>
-        </figure>
-        <figure class="mdx-users__list">
-            <img src="https://raw.githubusercontent.com/enligencelab/enligencelab.github.io/main/assets/images/banners/hello.jpeg"
-                alt="Chisato Nishikigi" loading="lazy" width="150" height="150">
-            <figcaption class="md-typeset">
-                <h2>Chisato Nishikigi</h2>
-                <!-- <h3>My Wife</h3>
-                <hr class="people-line"> -->
-                <cite>
-                    My wife, Super Lycoris, The best JK in the world.
-                </cite>
-            </figcaption>
-        </figure>
-        <figure class="mdx-users__list">
-            <img src="https://raw.githubusercontent.com/enligencelab/enligencelab.github.io/main/assets/images/banners/hello.jpeg"
-                alt="Chisato Nishikigi" loading="lazy" width="150" height="150">
-            <figcaption class="md-typeset">
-                <h2>Chisato Nishikigi</h2>
-                <!-- <h3>My Wife</h3>
-                <hr class="people-line"> -->
-                <cite>
-                    My wife, Super Lycoris, The best JK in the world.
-                </cite>
-            </figcaption>
-        </figure>
-        <figure class="mdx-users__list">
-            <img src="https://raw.githubusercontent.com/enligencelab/enligencelab.github.io/main/assets/images/banners/hello.jpeg"
-                alt="Chisato Nishikigi" loading="lazy" width="150" height="150">
-            <figcaption class="md-typeset">
-                <h2>Chisato Nishikigi</h2>
-                <!-- <h3>My Wife</h3>
-                <hr class="people-line"> -->
-                <cite>
-                    My wife, Super Lycoris, The best JK in the world.
-                </cite>
-            </figcaption>
-        </figure>
-        <figure class="mdx-users__list">
-            <img src="https://raw.githubusercontent.com/enligencelab/enligencelab.github.io/main/assets/images/banners/hello.jpeg"
-                alt="Chisato Nishikigi" loading="lazy" width="150" height="150">
-            <figcaption class="md-typeset">
-                <h2>Chisato Nishikigi</h2>
-                <!-- <h3>My Wife</h3>
-                <hr class="people-line"> -->
-                <cite>
-                    My wife, Super Lycoris, The best JK in the world.
-                </cite>
-            </figcaption>
-        </figure>
-        <figure class="mdx-users__list">
-            <img src="https://raw.githubusercontent.com/enligencelab/enligencelab.github.io/main/assets/images/banners/hello.jpeg"
-                alt="Chisato Nishikigi" loading="lazy" width="150" height="150">
-            <figcaption class="md-typeset">
-                <h2>Chisato Nishikigi</h2>
-                <!-- <h3>My Wife</h3>
-                <hr class="people-line"> -->
-                <cite>
-                    My wife, Super Lycoris, The best JK in the world.
-                </cite>
-            </figcaption>
-        </figure>
+        {%- assign teachers = site.data.teachers -%}
+        {%- for teacher in teachers -%}
+            <figure class="mdx-users__list">
+                <img src="{{teacher.picture}}" alt="{{teacher.name}}" loading="lazy" width="150" height="150">
+                <figcaption class="md-typeset">
+                    <h2>{{teacher.name}}</h2>
+                    <cite>
+                        {{teacher.description}}
+                    </cite>
+                </figcaption>
+            </figure>
+        {%- endfor -%}
     </div>
 </section>
 
