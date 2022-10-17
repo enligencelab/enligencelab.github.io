@@ -4,9 +4,9 @@ title: 成员
 ---
 
 <section>
-    <h2>
+    <h1>
         教师团队
-    </h2>
+    </h1>
     <div class="mdx-users">
         {%- assign teachers = site.data.teachers -%}
         {%- for teacher in teachers -%}
@@ -29,10 +29,51 @@ title: 成员
     </div>
 </section>
 
-<h2>
-    已毕业成员
-</h2>
+<section>
+    <h1>
+        已毕业成员
+    </h1>
+    <div class="mdx-users">
+        {%- assign graduatedStudents = site.data.graduated -%}
+        {%- for graduatedStudent in graduatedStudents -%}
+            <figure class="mdx-users__list">
+                <img src="{{graduatedStudent.picture}}" alt="{{graduatedStudent.name}}" loading="lazy" width="150" height="150">
+                <figcaption class="md-typeset">
+                    <h2>{{graduatedStudent.name}}</h2>
+                    <cite>
+                        {{graduatedStudent.school}}
+                    </cite>
+                    <cite>
+                        {{graduatedStudent.department}}
+                    </cite>
+                    <cite>
+                        {{graduatedStudent.graduateYear}}
+                    </cite>
+                </figcaption>
+            </figure>
+        {%- endfor -%}
+    </div>
+</section>
 
-<h2>
-    在校成员
-</h2>
+<section>
+    <h1>
+        在校成员
+    </h1>
+    <div class="mdx-users">
+        {%- assign students = site.data.undergraduate -%}
+        {%- for student in students -%}
+            <figure class="mdx-users__list">
+                <img src="{{student.picture}}" alt="{{student.name}}" loading="lazy" width="150" height="150">
+                <figcaption class="md-typeset">
+                    <h2>{{student.name}}</h2>
+                    <cite>
+                        {{student.school}}
+                    </cite>
+                    <cite>
+                        {{student.department}}
+                    </cite>
+                </figcaption>
+            </figure>
+        {%- endfor -%}
+    </div>
+</section>

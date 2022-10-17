@@ -2,52 +2,33 @@
 #   name:
 #   school:
 #   department:
-#   title:
 
 - picture: https://raw.githubusercontent.com/enligencelab/enligencelab.github.io/main/assets/images/banners/hello.jpeg
   name: 张三
   school: 上海立信会计金融学院
   department:  信息管理学院
-  title: 教授
-
-- picture: https://raw.githubusercontent.com/enligencelab/enligencelab.github.io/main/assets/images/banners/hello.jpeg
-  name: 李四
-  school: 上海立信会计金融学院
-  department:  信息管理学院
-  title: 教授
 
 - picture: https://raw.githubusercontent.com/enligencelab/enligencelab.github.io/main/assets/images/banners/hello.jpeg
   name: 张三
   school: 上海立信会计金融学院
   department:  信息管理学院
-  title: 教授
-
-- picture: https://raw.githubusercontent.com/enligencelab/enligencelab.github.io/main/assets/images/banners/hello.jpeg
-  name: 李四
-  school: 上海立信会计金融学院
-  department:  信息管理学院
-  title: 教授
 
 - picture: https://raw.githubusercontent.com/enligencelab/enligencelab.github.io/main/assets/images/banners/hello.jpeg
   name: 张三
   school: 上海立信会计金融学院
   department:  信息管理学院
-  title: 教授
-
-- picture: https://raw.githubusercontent.com/enligencelab/enligencelab.github.io/main/assets/images/banners/hello.jpeg
-  name: 李四
-  school: 上海立信会计金融学院
-  department:  信息管理学院
-  title: 教授
 
 - picture: https://raw.githubusercontent.com/enligencelab/enligencelab.github.io/main/assets/images/banners/hello.jpeg
   name: 张三
   school: 上海立信会计金融学院
   department:  信息管理学院
-  title: 教授
 
 - picture: https://raw.githubusercontent.com/enligencelab/enligencelab.github.io/main/assets/images/banners/hello.jpeg
-  name: 李四
+  name: 张三
   school: 上海立信会计金融学院
   department:  信息管理学院
-  title: 教授
+
+- picture: https://raw.githubusercontent.com/enligencelab/enligencelab.github.io/main/assets/images/banners/hello.jpeg
+  name: 张三
+  school: 上海立信会计金融学院
+  department:  信息管理学院
