@@ -1185,7 +1185,11 @@
 
 @media screen and (max-width: 59.9375em) {
   .mdx-users {
-      flex-direction:column
+      flex-direction:row;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 3.2rem;
+      margin: 2.4rem 0
   }
 }
 
